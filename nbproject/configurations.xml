@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Player.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="eigen" displayName="eigen" projectFiles="true">
+        <logicalFolder name="Eigen" displayName="Eigen" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <logicalFolder name="Cholesky" displayName="Cholesky" projectFiles="true">
+              <itemPath>eigen/Eigen/src/Cholesky/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Cholesky/LDLT.h</itemPath>
+              <itemPath>eigen/Eigen/src/Cholesky/LLT.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                <logicalFolder name="AltiVec" displayName="AltiVec" projectFiles="true">
+                  <itemPath>eigen/Eigen/src/Core/arch/AltiVec/CMakeLists.txt</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/AltiVec/Complex.h</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/AltiVec/PacketMath.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="Default" displayName="Default" projectFiles="true">
+                  <itemPath>eigen/Eigen/src/Core/arch/Default/CMakeLists.txt</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/Default/Settings.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="NEON" displayName="NEON" projectFiles="true">
+                  <itemPath>eigen/Eigen/src/Core/arch/NEON/CMakeLists.txt</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/NEON/Complex.h</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/NEON/PacketMath.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="SSE" displayName="SSE" projectFiles="true">
+                  <itemPath>eigen/Eigen/src/Core/arch/SSE/CMakeLists.txt</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/SSE/Complex.h</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/SSE/MathFunctions.h</itemPath>
+                  <itemPath>eigen/Eigen/src/Core/arch/SSE/PacketMath.h</itemPath>
+                </logicalFolder>
+                <itemPath>eigen/Eigen/src/Core/arch/CMakeLists.txt</itemPath>
+              </logicalFolder>
+              <logicalFolder name="products" displayName="products" projectFiles="true">
+                <itemPath>eigen/Eigen/src/Core/products/CMakeLists.txt</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/CoeffBasedProduct.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/GeneralMatrixVector.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/Parallelizer.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/SelfadjointProduct.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/SelfadjointRank2Update.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/TriangularMatrixVector.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/products/TriangularSolverMatrix.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="util" displayName="util" projectFiles="true">
+                <itemPath>eigen/Eigen/src/Core/util/BlasUtil.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/CMakeLists.txt</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/Constants.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/DisableMSVCWarnings.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/EnableMSVCWarnings.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/ForwardDeclarations.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/Macros.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/Memory.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/Meta.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/StaticAssert.h</itemPath>
+                <itemPath>eigen/Eigen/src/Core/util/XprHelper.h</itemPath>
+              </logicalFolder>
+              <itemPath>eigen/Eigen/src/Core/Array.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/ArrayBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/ArrayWrapper.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Assign.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/BandMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Block.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/BooleanRedux.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CommaInitializer.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CwiseBinaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CwiseNullaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CwiseUnaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/CwiseUnaryView.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/DenseBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/DenseCoeffsBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/DenseStorageBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Diagonal.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/DiagonalMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/DiagonalProduct.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Dot.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/EigenBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Flagged.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/ForceAlignedAccess.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Functors.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Fuzzy.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/GenericPacketMath.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/GlobalFunctions.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/IO.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Map.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/MapBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/MathFunctions.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Matrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/MatrixBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/MatrixStorage.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/NestByValue.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/NoAlias.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/NumTraits.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/PermutationMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Product.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/ProductBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Random.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Redux.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Replicate.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/ReturnByValue.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Reverse.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Select.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/SelfAdjointView.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/SelfCwiseBinaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/SolveTriangular.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/StableNorm.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Stride.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Swap.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Transpose.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Transpositions.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/TriangularMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/VectorBlock.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/VectorwiseOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Core/Visitor.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Eigen2Support"
+                           displayName="Eigen2Support"
+                           projectFiles="true">
+              <itemPath>eigen/Eigen/src/Eigen2Support/Block.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/Cwise.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/CwiseOperators.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/Lazy.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/Minor.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/TriangularSolver.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigen2Support/VectorBlock.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Eigenvalues" displayName="Eigenvalues" projectFiles="true">
+              <itemPath>eigen/Eigen/src/Eigenvalues/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/ComplexSchur.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/EigenSolver.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/EigenvaluesCommon.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/RealSchur.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h</itemPath>
+              <itemPath>eigen/Eigen/src/Eigenvalues/Tridiagonalization.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Geometry" displayName="Geometry" projectFiles="true">
+              <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                <itemPath>eigen/Eigen/src/Geometry/arch/CMakeLists.txt</itemPath>
+                <itemPath>eigen/Eigen/src/Geometry/arch/Geometry_SSE.h</itemPath>
+              </logicalFolder>
+              <itemPath>eigen/Eigen/src/Geometry/AlignedBox.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/AngleAxis.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/EulerAngles.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Homogeneous.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Hyperplane.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/OrthoMethods.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/ParametrizedLine.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Quaternion.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Rotation2D.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/RotationBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Scaling.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Transform.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Translation.h</itemPath>
+              <itemPath>eigen/Eigen/src/Geometry/Umeyama.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Householder" displayName="Householder" projectFiles="true">
+              <itemPath>eigen/Eigen/src/Householder/BlockHouseholder.h</itemPath>
+              <itemPath>eigen/Eigen/src/Householder/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Householder/Householder.h</itemPath>
+              <itemPath>eigen/Eigen/src/Householder/HouseholderSequence.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Jacobi" displayName="Jacobi" projectFiles="true">
+              <itemPath>eigen/Eigen/src/Jacobi/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Jacobi/Jacobi.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="LU" displayName="LU" projectFiles="true">
+              <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                <itemPath>eigen/Eigen/src/LU/arch/CMakeLists.txt</itemPath>
+                <itemPath>eigen/Eigen/src/LU/arch/Inverse_SSE.h</itemPath>
+              </logicalFolder>
+              <itemPath>eigen/Eigen/src/LU/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/LU/Determinant.h</itemPath>
+              <itemPath>eigen/Eigen/src/LU/FullPivLU.h</itemPath>
+              <itemPath>eigen/Eigen/src/LU/Inverse.h</itemPath>
+              <itemPath>eigen/Eigen/src/LU/PartialPivLU.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="misc" displayName="misc" projectFiles="true">
+              <itemPath>eigen/Eigen/src/misc/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/misc/Image.h</itemPath>
+              <itemPath>eigen/Eigen/src/misc/Kernel.h</itemPath>
+              <itemPath>eigen/Eigen/src/misc/Solve.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="plugins" displayName="plugins" projectFiles="true">
+              <itemPath>eigen/Eigen/src/plugins/ArrayCwiseBinaryOps.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/ArrayCwiseUnaryOps.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/BlockMethods.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h</itemPath>
+              <itemPath>eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="QR" displayName="QR" projectFiles="true">
+              <itemPath>eigen/Eigen/src/QR/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/QR/ColPivHouseholderQR.h</itemPath>
+              <itemPath>eigen/Eigen/src/QR/FullPivHouseholderQR.h</itemPath>
+              <itemPath>eigen/Eigen/src/QR/HouseholderQR.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Sparse" displayName="Sparse" projectFiles="true">
+              <itemPath>eigen/Eigen/src/Sparse/AmbiVector.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/CompressedStorage.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/CoreIterators.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/DynamicSparseMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/MappedSparseMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseAssign.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseBlock.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseCwiseBinaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseCwiseUnaryOp.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseDenseProduct.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseDiagonalProduct.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseDot.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseFuzzy.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseMatrix.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseMatrixBase.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseProduct.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseRedux.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseSelfAdjointView.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseSparseProduct.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseTranspose.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseTriangularView.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseUtil.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseVector.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/SparseView.h</itemPath>
+              <itemPath>eigen/Eigen/src/Sparse/TriangularSolver.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="StlSupport" displayName="StlSupport" projectFiles="true">
+              <itemPath>eigen/Eigen/src/StlSupport/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/StlSupport/StdDeque.h</itemPath>
+              <itemPath>eigen/Eigen/src/StlSupport/StdList.h</itemPath>
+              <itemPath>eigen/Eigen/src/StlSupport/StdVector.h</itemPath>
+              <itemPath>eigen/Eigen/src/StlSupport/details.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="SVD" displayName="SVD" projectFiles="true">
+              <itemPath>eigen/Eigen/src/SVD/CMakeLists.txt</itemPath>
+              <itemPath>eigen/Eigen/src/SVD/JacobiSVD.h</itemPath>
+              <itemPath>eigen/Eigen/src/SVD/UpperBidiagonalization.h</itemPath>
+            </logicalFolder>
+            <itemPath>eigen/Eigen/src/CMakeLists.txt</itemPath>
+          </logicalFolder>
+          <itemPath>eigen/Eigen/Array</itemPath>
+          <itemPath>eigen/Eigen/CMakeLists.txt</itemPath>
+          <itemPath>eigen/Eigen/Cholesky</itemPath>
+          <itemPath>eigen/Eigen/Core</itemPath>
+          <itemPath>eigen/Eigen/Dense</itemPath>
+          <itemPath>eigen/Eigen/Eigen</itemPath>
+          <itemPath>eigen/Eigen/Eigen2Support</itemPath>
+          <itemPath>eigen/Eigen/Eigenvalues</itemPath>
+          <itemPath>eigen/Eigen/Geometry</itemPath>
+          <itemPath>eigen/Eigen/Householder</itemPath>
+          <itemPath>eigen/Eigen/Jacobi</itemPath>
+          <itemPath>eigen/Eigen/LU</itemPath>
+          <itemPath>eigen/Eigen/QR</itemPath>
+          <itemPath>eigen/Eigen/QtAlignedMalloc</itemPath>
+          <itemPath>eigen/Eigen/SVD</itemPath>
+          <itemPath>eigen/Eigen/Sparse</itemPath>
+          <itemPath>eigen/Eigen/StdDeque</itemPath>
+          <itemPath>eigen/Eigen/StdList</itemPath>
+          <itemPath>eigen/Eigen/StdVector</itemPath>
+        </logicalFolder>
+        <itemPath>eigen/signature_of_eigen3_matrix_library</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Closure.cpp</itemPath>
+      <itemPath>Player.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Desktop/2013 Classes/Fall 2013/Animation/Theme5/Milestone1/jcs2213/include/eigen</Elem>
+    <Elem>eigen</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-framework GLUT -framework OpenGL</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
