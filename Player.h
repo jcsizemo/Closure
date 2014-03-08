@@ -25,13 +25,14 @@ public:
     virtual ~Player();
 
     // keyboard function controlling movement per time
-    void keyboard(bool *keys, double dt);
+    void keyboard(bool *keys, bool *specKeys, double dt);
     
     // draw function for displaying the player
-    void draw();
+    void draw(double dt);
     
-    Vector3f x;
-    Vector3f v;
+    Vector2f x;
+    Vector2f v;
+    double movePerSec;
     
 private:
 

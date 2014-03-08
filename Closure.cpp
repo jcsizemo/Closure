@@ -35,6 +35,7 @@ Player *p;
 
 // arrays used for keyboard and mouse interactions. used in time based animation
 bool keys[255];
+bool specKeys[255];
 
 // Enable function. Enables the two lights, lighting, blending, colored material,
 // and depth testing. Also sets the material parameters for objects in the map.
@@ -99,9 +100,8 @@ void display(void) {
     
     glTranslated(0,0,-2);
     
-    glPushMatrix();
-    p->draw();
-    glPopMatrix();
+    p->keyboard(&keys[0], &specKeys[0], dt);
+    p->draw(dt);
 
     glutSwapBuffers(); //swap the buffers
 }
@@ -110,6 +110,9 @@ void display(void) {
 
 void keyDown(unsigned char key, int x, int y) {
     // set value to true if pressed down
+    if (!keys[key]) {
+        keys[key] = true;
+    }
     
     // toggle program exit with 'escape'
     if (key == 27) {
@@ -120,8 +123,24 @@ void keyDown(unsigned char key, int x, int y) {
 
 void keyUp(unsigned char key, int x, int y) {
     // set key to false if released
+    if (keys[key]) {
+        keys[key] = false;
+    }
+}
 
+void specKeyDown(int key, int x, int y) {
+    // set value to true if pressed down
+    if (!specKeys[key]) {
+        specKeys[key] = true;
+    }
 
+}
+
+void specKeyUp(int key, int x, int y) {
+    // set key to false if released
+    if (specKeys[key]) {
+        specKeys[key] = false;
+    }
 }
 
 int main(int argc, char** argv) {
@@ -143,6 +162,9 @@ int main(int argc, char** argv) {
 
     glutKeyboardFunc(keyDown); // set key down function
     glutKeyboardUpFunc(keyUp); // set key up function
+    
+    glutSpecialFunc(specKeyDown); // special key down function
+    glutSpecialUpFunc(specKeyUp); // special key up function
 
     t = clock();        // init clock
     
