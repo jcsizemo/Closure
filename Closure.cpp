@@ -24,6 +24,7 @@
 #include <ctime>
 #include <vector>
 #include "Player.h"
+#include "Force.h"
 
 using namespace std;
 
@@ -36,6 +37,8 @@ Player *p;
 // arrays used for keyboard and mouse interactions. used in time based animation
 bool keys[255];
 bool specKeys[255];
+
+vector<Force*> forces;
 
 // Enable function. Enables the two lights, lighting, blending, colored material,
 // and depth testing. Also sets the material parameters for objects in the map.
@@ -98,10 +101,10 @@ void display(void) {
     
     glOrtho(-10, 10, -10, 10, 0, -10);
     
-    glTranslated(0,0,-2);
+    glTranslated(0,0,-5);
     
     p->keyboard(&keys[0], &specKeys[0], dt);
-    p->draw(dt);
+    p->draw(dt,&forces);
 
     glutSwapBuffers(); //swap the buffers
 }
@@ -113,6 +116,8 @@ void keyDown(unsigned char key, int x, int y) {
     if (!keys[key]) {
         keys[key] = true;
     }
+    
+    std::cout << keys[32] << std::endl;
     
     // toggle program exit with 'escape'
     if (key == 27) {

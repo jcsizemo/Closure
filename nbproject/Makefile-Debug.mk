@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Closure.o \
-	${OBJECTDIR}/Player.o
+	${OBJECTDIR}/Player.o \
+	${OBJECTDIR}/Force.o
 
 
 # C Compiler Flags
@@ -71,6 +72,11 @@ ${OBJECTDIR}/Player.o: Player.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/Player.o Player.cpp
+
+${OBJECTDIR}/Force.o: Force.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/Force.o Force.cpp
 
 # Subprojects
 .build-subprojects:

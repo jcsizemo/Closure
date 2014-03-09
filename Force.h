@@ -9,31 +9,22 @@
  * Created on May 1, 2013, 4:43 PM
  */
 
-#ifndef PLAYER_H
-#define	PLAYER_H
+#ifndef FORCE_H
+#define	FORCE_H
 #include <iostream>
 #include <vector>
 #include "Eigen/Core"
-#include "Force.h"
 
 using namespace std;
 using namespace Eigen;
 
-class Player {
+class Force {
 public:
-    Player();
-    Player(const Player& orig);
-    virtual ~Player();
-
-    // keyboard function controlling movement per time
-    void keyboard(bool *keys, bool *specKeys, double dt);
+    Force();
+    Force(const Force& orig);
+    virtual ~Force();
     
-    // draw function for displaying the player
-    void draw(double dt, vector<Force*> *forces);
-    
-    Vector2f x;
-    Vector2f v;
-    double mass;
+    void update(Vector2f *obj);
     
 private:
 

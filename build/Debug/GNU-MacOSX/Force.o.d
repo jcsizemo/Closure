@@ -1,4 +1,4 @@
-build/Debug/GNU-MacOSX/Closure.o: Closure.cpp Player.h Eigen/Core \
+build/Debug/GNU-MacOSX/Force.o: Force.cpp Force.h Eigen/Core \
   Eigen/src/Core/util/DisableStupidWarnings.h \
   Eigen/src/Core/util/Macros.h Eigen/src/Core/util/MKL_support.h \
   Eigen/src/Core/util/Constants.h \
@@ -59,9 +59,9 @@ build/Debug/GNU-MacOSX/Closure.o: Closure.cpp Player.h Eigen/Core \
   Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
   Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
   Eigen/src/Core/ArrayWrapper.h Eigen/src/Core/GlobalFunctions.h \
-  Eigen/src/Core/util/ReenableStupidWarnings.h Force.h
+  Eigen/src/Core/util/ReenableStupidWarnings.h
 
-Player.h:
+Force.h:
 
 Eigen/Core:
 
@@ -254,5 +254,3 @@ Eigen/src/Core/ArrayWrapper.h:
 Eigen/src/Core/GlobalFunctions.h:
 
 Eigen/src/Core/util/ReenableStupidWarnings.h:
-
-Force.h:

@@ -59,7 +59,7 @@ build/Debug/GNU-MacOSX/Player.o: Player.cpp Player.h Eigen/Core \
   Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
   Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
   Eigen/src/Core/ArrayWrapper.h Eigen/src/Core/GlobalFunctions.h \
-  Eigen/src/Core/util/ReenableStupidWarnings.h
+  Eigen/src/Core/util/ReenableStupidWarnings.h Force.h
 
 Player.h:
 
@@ -254,3 +254,5 @@ Eigen/src/Core/ArrayWrapper.h:
 Eigen/src/Core/GlobalFunctions.h:
 
 Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+Force.h:
